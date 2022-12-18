@@ -1,0 +1,35 @@
+.topNav{
+
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 10px 30px 10px 30px;
+    
+
+}
+
+
+
+
+
+.navCont>div{
+    /* width: 30%; */
+    display: flex;
+    align-items: center;
+
+}
+.navCont>div:nth-child(3){
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.check>div{
+    width: 20%;
+}
+
+.cont:hover{
+    color: blue;
+}
